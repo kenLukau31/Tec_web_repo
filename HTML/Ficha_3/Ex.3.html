@@ -1,0 +1,40 @@
+<!--FORMULARIO 1.2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>A versão 1.2 do meu 1º formulário</h1>
+    <form action="">
+        Nome: <input type="text" name=" nome " placeholder="Escreva o seu nome" required>
+        <br>
+        Email: <input type=" email" name=" email" placeholder="Escreva o seu email"  required>
+        <br>
+        Idade: <input type="number " name=" idade" required>
+        <br><!-- type date para escolher uma data-->
+        Data de nascimento: <input type="date" name="bdayTime">
+        <br>
+        Password: <input type="password" name=" Password"  placeholder="Digite a sua palavra-passe"  required>
+        <br> <!--dropdown com varias opcões-->
+        <label for="nacionalidade">Nacionalidade: </label>
+        <select  name="nacionalidade" id="nacionalidade">
+            <option value="Angola">Angola</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Cabo Verde">Cabo Verde</option>
+            <option value="Guiné-Bissau">Guiné-Bissau</option>
+            <option value="Guiné Equatorial">Guiné Equatorial</option>
+            <option value="Moçambique">Moçambique</option>
+            <option value="Portugal">Portugal</option>
+            <option value="São Tomé e Príncipe">São Tomé e Príncipe</option>
+            <option value="Timor-Leste">Timor-Leste</option>
+        </select>
+        <br>
+        <input type="submit" value="Submeter formulário">
+         
+
+    </form>
+</body>
+</html>
