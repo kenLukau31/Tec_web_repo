@@ -1,0 +1,18 @@
+body{
+
+    background-color: #000000;
+}
+
+.flex-container{
+    display: flex;
+    padding: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+image{
+
+    width: 300px;
+}
