@@ -2,7 +2,7 @@ body{
 
     background-color: #651780;
     color: #ee82ee;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
 
@@ -23,14 +23,15 @@ body{
 .paragraph{
 
     max-width: 589px;
-    margin-top: 16px; margin-bottom: 36px;
+    margin-top: 18px; 
+    margin-bottom: 12px;
 
 }
 
 .started{
 
-    color: #651780;
-    font-weight: normal;
+    color: #651780; 
+    font-weight: normal ;
     border:2px,solid #ee82ee;
     border-radius: 8px;
     background-color: #ee82ee;
@@ -45,14 +46,16 @@ body{
     border:2px,solid #ee82ee;
     border-radius: 8px;
     background-color: transparent;
-    padding: 34px,  40px;
+    padding: 10px,  16px;
 
 
 }
 
 .flex-container-bottoms{
 
-   
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
 }
 
 
@@ -65,12 +68,14 @@ body{
 .image{
 
     width: 465px;
+    border-radius: 20px;
 }
 
 .flex-container{
 
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     align-items: center;
 
 
